@@ -1,0 +1,78 @@
+Assignment :
+
+ Attributes and Behaviours of the class University 
+
+      Attributes:              
+
+      Student Id                            
+      Location                             
+      Department                          
+      Ranking                              
+                          
+
+      Behaviors:
+
+      Get Student Id
+      Getlocation
+      GetRank
+      GetDepartment
+      GetFaculty
+
+ Attributes and Behaviours of the class Bank
+
+      Attributes:               
+
+      Bank Name                  
+      AccountHolder Name
+      Account Number
+      Branch Name                           
+      IFSCcode                           
+      Address                            
+      Account Type                      
+      CIF No                         
+      Transcations 
+
+      Behaviors: 
+
+     GetAccount Name
+     GetBalance
+     GetDeposit
+     Getwithdral
+     GetAccountType
+     
+
+Attributes and Behaviours of the class Theatre
+
+      Attributes:                
+
+      Theatre Name
+      Movie Name                              
+      Seatnumber                              
+      Seating Type
+      Booking Type                  
+                           
+                              
+
+      Behaviors:
+   
+       getticket
+       getseatno
+       GetSeating Type
+       GetBooking Type
+       Getticketrate
+
+ Attributes and Behaviours of the class - Radio
+
+      Attributes:               
+
+      Frequency                            
+      Volume                               
+      Antena                                                                                          
+
+     Behaviors:
+
+      Getturnon
+      Getturnoff
+      Getsetfrequency
+      Getsetvolume
+      GetBattery Charge
