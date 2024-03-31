@@ -1,0 +1,72 @@
+C,C++,Java Language:
+
+C:
+
+1.It is platform dependent.
+2.It generates .exe and .bak file.
+3.The compiler translates the code to machine language.
+4.The source file has .c extension.
+
+C++:
+
+1.It is platform dependent.
+2.It generates .exe file.
+3.The compiler translates the code to machine language.
+4.The source file has .cpp extension.
+
+Java:
+
+1.It is platform independent because of byte code.
+2.It generates .class file.
+3.Java uses compiler and interpreter.
+4.The source file has .java extension.
+
+Compiler:
+
+> Compiler is a programme that translates the source code to machine code.
+
+
+> Java Compiler compile the code and generates the class file.
+
+> Java Programme ==>(source code)
+
+> Compiler converts source code to byte code and generates class file
+
+> JDK(Java Development Kit) contains JRE along with different tools like java libraries,java compilers,debuggers etc.
+
+> JRE and JVM converts the code and genertaes the class file.
+
+JVM(Java Virtual Machine)
+ 
+> It executes the programme line by line so it is called as interpreter.
+
+> JVM has both Compiler and Interpreter.
+
+> Compiler compiles the code and generates the byte code.
+
+> Interpreter converts the byte code to machine language.
+
+> Class loader loads the java programme and genertes .class file.
+
+> Byte code verifer==> Verifies the code is valid or not (or) the code to be in fit state.
+
+> Security Manager is a object that protects the java application. 
+ 
+Java SE:
+
+> It is a programming platform.
+> It includes APIs like java.net,java.sql etc
+
+Java EE:
+> It is used for develop web and ennterprise application.
+> It is advanced edition than Java SE
+> It is used commercial pupose.
+
+Java ME:
+> It is Micro Edition used for mobile application.
+
+
+why it is named as JDK, J2SE, Java SE
+ 
+I Think
+Change of version numbers
