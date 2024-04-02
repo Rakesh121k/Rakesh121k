@@ -1,0 +1,31 @@
+
+class Sum
+{
+public static void main(String args[])
+{
+int a=22;
+int b=a/10;
+int c=a%10;
+int sum=b+c;
+System.out.println(sum);
+}
+}
+
+Out put:
+4
+
+
+class Sum1
+{
+public static void main(String args[])
+{
+int x=44;
+int y=x/10;
+int z=x%10;
+int sum=y+z;
+System.out.println(sum);
+}
+}
+
+Output:
+8
