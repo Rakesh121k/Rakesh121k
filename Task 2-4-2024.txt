@@ -1,0 +1,58 @@
+class Nestedif2
+{
+public static void main(String args[])
+{
+int num=68;
+if(num<100)
+{
+System.out.println("Less than 100 Number");
+}
+if(num>50)
+{
+System.out.println("Greater than 50 Number");
+}
+else
+{
+System.out.println("Greater than 100");
+}
+}
+}
+
+Output:
+Less than 100 Number
+Greater than 50 Number
+
+class Nestedif
+{
+public static void main(String args[])
+{
+int marks=95;
+if((marks>90)&&(marks<=100))
+{
+System.out.println("Grade A+ or Distinction");
+}
+else if((marks>=80)&&(marks<=89))
+{
+System.out.println("Grade A");
+}
+else if((marks>=70)&&(marks<=79))
+{
+System.out.println("Grade B");
+}
+else if((marks>=60)&&(marks<=69))
+{
+System.out.println("Grade B");
+}
+else if((marks>=50)&&(marks<=59))
+{
+System.out.println("Grade C");
+}
+else
+{
+System.out.println("Fail");
+}
+}
+}
+
+Out put:
+Grade A+ or Distinction
