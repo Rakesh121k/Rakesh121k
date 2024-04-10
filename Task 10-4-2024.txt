@@ -1,0 +1,113 @@
+
+1.what if my child class has lesser access modifier? 
+// private void walk()
+
+ In parent class,method defined as public access modifier and child class defined with private access modifier.       
+  We will get an error that not visible(compilation error).
+
+ We have to use same access modifiers like public, protect and default access modifiers
+
+  But not "private" access modifier
+
+2. Calc, scientific calc, programmer calc - implement complete inheritance(overriding,uniq methd...)
+
+Calculators (Parent Class)
+
+     Addition() {}
+     Substraction() {}
+     Multification() {}
+     Division() {}
+     Clear(){}
+
+Standard   (Child Class)
+     Addition() {}
+     Substraction() {}
+     Multification() {}
+     Division() {}
+     CE(){}            // Unique method
+     Percentage() {}  //Unique  method
+
+Scientific (Child Class)
+
+     Addition() {} 
+     Substraction() {}
+     Multification() {}
+     Division() {}
+     Trigonometry() {} //Unique method
+     Function() {} //Unique method
+
+programmer  (Child Class)
+
+     Addition() {}
+     Substraction() {}
+     Multification() {}
+     Division() {}
+     Bitwise() {} //Unique method
+     Bitshift() {} //Unique method
+     Byte() {} //Unique method
+
+3. Radio, Tv, Dvd Player - identify the Apt parent class and implement inheritance
+
+Electronic Broadcast (Parent class)
+
+    Audio() {}
+    Play() {}
+    pause(){}
+    Stop() {}
+
+Radio (Child class)
+    
+    Audio() {}
+    Recording() {}
+    Play() {}
+    pause(){}
+    Stop() {}
+    Audio_disc() {} // unique method
+
+TV  (Child class)
+    Audio() {}
+    Play() {}
+    pause(){}
+    Stop() {}
+    Video() {}            // unique method
+    Video_Recording() {} //unique method
+
+DVD Player (Child class)
+    
+    Audio() {}
+    video(){}
+    Play() {}
+    pause(){}
+    Stop() {}
+    Video_Disc() {} // unique method
+   
+
+4. Admin, Manager, Finance - idetify the parent class and implement inheritance
+
+Department (Parent class)
+     login() {}
+     logout() {}  
+     campany Name() {}
+
+Admin (Child class)
+     login() {}
+     logout() {}  
+     campany Name() {}
+     At_Reception() {}// unique method
+     employee_Records() {} // Unique method
+
+Manager  (child class)
+     login() {} 
+     logout() {} 
+     campany Name() {}
+     Management() {} // Unique method
+     Set goals (){} //Unique method
+     
+Finance  (child class)
+
+     login() {}
+     logout() {}
+     campany Name() {}
+     accounts() {}   // unique method
+     salary() {}     // unique method
+     
